@@ -29,7 +29,7 @@ class StringTest extends PHPUnit_Framework_TestCase
         $abc2 = new String("123");
         $this->abc->add($abc2);
         $result = $this->abc->toString("%s");
-        $expected = "abc1234";
+        $expected = "abc123";
         $this->assertTrue($result == $expected);
     }
 }
